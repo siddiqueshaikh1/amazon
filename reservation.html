@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hotel Room Reservation</title>
+  </head>
+  <body style="background-color: rgb(149, 208, 216);"></body>
+    <h1>Hotel Room Reservation</h1>
+    <form action="submit_reservation.php" method="post">
+      <label for="room_type">Type of Room:</label>
+      <select id="room_type" name="room_type">
+        <option value="deluxe">Deluxe</option>
+        <option value="standard">Standard</option>
+        <option value="suite">Suite</option>
+      </select>
+      <br><br>
+
+      <label for="smoking">Smoking Preference:</label>
+      <input type="radio" id="smoking_yes" name="smoking" value="yes">
+      <label for="smoking_yes">Yes</label>
+      <input type="radio" id="smoking_no" name="smoking" value="no">
+      <label for="smoking_no">No</label>
+      <br><br>
+
+      <label for="guests">Number of Guests:</label>
+      <input type="number" id="guests" name="guests" min="1" max="4">
+      <br>
+      <br
+
+      <label for="check_in">Check-in Date:</label>
+      <input type="date" id="check_in" name="check_in">
+      <br><br>
+
+      <label for="check_out">Check-out Date:</label>
+      <input type="date" id="check_out" name="check_out">
+      <br><br>
+
+      <label for="special_requests">Special Requests:</label>
+      <textarea id="special_requests" name="special_requests"></textarea>
+      <br><br>
+
+      <label for="married_couple">Reservation for a married couple:</label>
+      <input type="checkbox" id="married_couple" name="married_couple">
+      <br><br>
+
+      <input type="submit" value="Submit Reservation">
+    </form><br><br>
+    <img src="https://content3.jdmagicbox.com/comp/ahmedabad/u1/079pxx79.xx79.191228135515.a5u1/catalogue/banana-leaf-ahmedabad-0uultugmoj.jpg" alt="">
+  </body>
+</html>
